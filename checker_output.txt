@@ -1,0 +1,40 @@
+Passed test 01
+Passed test 02
+Passed test 03
+Passed test 04
+Passed test 05
+Passed test 06
+Passed test 07
+Passed test 08
+Passed test 09
+Passed test 10
+Passed test 11
+mysplit entries in 'ps a':
+  PID   TT  STAT      TIME COMMAND
+tsh's:
+1300004 pts/3    T      0:00 ./mysplit 4
+1300005 pts/3    T      0:00 ./mysplit 4
+1300006 pts/3    T      0:00 ./mysplit 4
+1300007 pts/3    T      0:00 ./mysplit 4
+tshref's:
+1300004 pts/3    T      0:00 ./mysplit 4
+1300005 pts/3    T      0:00 ./mysplit 4
+1300006 pts/3    T      0:00 ./mysplit 4
+1300007 pts/3    T      0:00 ./mysplit 4
+Passed test 12
+mysplit entries in 'ps a':
+  PID   TT  STAT      TIME COMMAND
+tsh's:
+1300049 pts/3    T      0:00 ./mysplit 4
+1300050 pts/3    T      0:00 ./mysplit 4
+1300051 pts/3    T      0:00 ./mysplit 4
+1300052 pts/3    T      0:00 ./mysplit 4
+tshref's:
+1300049 pts/3    T      0:00 ./mysplit 4
+1300050 pts/3    T      0:00 ./mysplit 4
+1300051 pts/3    T      0:00 ./mysplit 4
+1300052 pts/3    T      0:00 ./mysplit 4
+Passed test 13
+Passed test 14
+Passed test 15
+Passed test 16

@@ -1,4 +1,51 @@
 # Shlab实验报告
+
+完整文件夹下载: https://github.com/SeleiXi/FDU-COMP130201-ICS-CSAPP/tree/shlab
+
+checker.py的结果
+``` shell
+Passed test 01
+Passed test 02
+Passed test 03
+Passed test 04
+Passed test 05
+Passed test 06
+Passed test 07
+Passed test 08
+Passed test 09
+Passed test 10
+Passed test 11
+mysplit entries in 'ps a':
+  PID   TT  STAT      TIME COMMAND
+tsh's:
+1300004 pts/3    T      0:00 ./mysplit 4
+1300005 pts/3    T      0:00 ./mysplit 4
+1300006 pts/3    T      0:00 ./mysplit 4
+1300007 pts/3    T      0:00 ./mysplit 4
+tshref's:
+1300004 pts/3    T      0:00 ./mysplit 4
+1300005 pts/3    T      0:00 ./mysplit 4
+1300006 pts/3    T      0:00 ./mysplit 4
+1300007 pts/3    T      0:00 ./mysplit 4
+Passed test 12
+mysplit entries in 'ps a':
+  PID   TT  STAT      TIME COMMAND
+tsh's:
+1300049 pts/3    T      0:00 ./mysplit 4
+1300050 pts/3    T      0:00 ./mysplit 4
+1300051 pts/3    T      0:00 ./mysplit 4
+1300052 pts/3    T      0:00 ./mysplit 4
+tshref's:
+1300049 pts/3    T      0:00 ./mysplit 4
+1300050 pts/3    T      0:00 ./mysplit 4
+1300051 pts/3    T      0:00 ./mysplit 4
+1300052 pts/3    T      0:00 ./mysplit 4
+Passed test 13
+Passed test 14
+Passed test 15
+Passed test 16
+```
+
 ## 实验目的
 本lab的目的在于模拟一个命令行程序，可以实现以下几种功能：
 1. jobs: 查询正在运行或已经暂停的前台和后台任务</p>
@@ -272,4 +319,3 @@ tsh> jobs
 tsh> fg %1
 tsh> quit
 ```
-**(注意: `<pid>` 会在实际运行时替换为真实的进程ID)** 
